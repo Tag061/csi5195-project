@@ -15,9 +15,14 @@ The following image illustrates the success rates of jailbreak attempts categori
 ## PCA Results
 Here we present the results of our Principal Component Analysis (PCA) on the data. These plots show the distribution and variance explained by the principal components, providing insight into the model's behavior under different conditions.
 
-![PCA Result 1](img/fig_1.png)
-![PCA Result 2](img/fig_1.png)
-![PCA Result 3](img/fig_1.png)
+![PCA Result 1](img/Phi-3.5-mini-instruct_pca.png)
+![PCA Result 2](img/Qwen2-7B-Instruct_pca.png)
+![PCA Result 3](img/Meta-Llama-3-8B-Instruct_pca.png)
+
+LLaMA3 0.05 0.0650 (+0.015) 0.0300 (-0.020) 0.035
+Qwen-1.5 0.19 0.2175 (+0.028) 0.1675 (-0.022) 0.050
+Qwen2 0.17 0.1971 (+0.027) 0.1671 (-0.012) 0.030
+Phi-mini 0.41
 
 ## Running the Code
 To get started with running the PCJailbreak code, follow these steps:
@@ -43,7 +48,6 @@ To get started with running the PCJailbreak code, follow these steps:
     ```bash
     python main.py --csv_path "ICLR_github/artifact/gpt3_jailbreak_responses.csv" --model_id "Qwen/Qwen1.5-7B-Chat" --output_filename "qwen1.5_jailbreak_response.csv" --device "cuda"
     ```
-
 
 4. **Explore the results**:
     After running the main script, the results will be generated and saved in the artifact URL.
