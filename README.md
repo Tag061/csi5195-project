@@ -54,3 +54,6 @@ To get started with running the PCJailbreak code, follow these steps:
 4. **Explore the results**:
     After running the main script, the results will be generated and saved in the artifact URL.
     google drive url: https://drive.google.com/drive/folders/1PcUnaNqcWXcvVZ0lM1wtsLyToGJOd0r8?usp=sharing
+
+## Dataset
+Jailbreakbench: https://jailbreakbench.github.io/
