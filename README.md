@@ -48,7 +48,7 @@ To get started with running the PCJailbreak code, follow these steps:
 3. **Run the main script**:
     Execute the following command to run the script:
     ```bash
-    python main.py --csv_path "ICLR_github/artifact/gpt3_jailbreak_responses.csv" --model_id "Qwen/Qwen1.5-7B-Chat" --output_filename "qwen1.5_jailbreak_response.csv" --device "cuda"
+    python src/main.py --csv_path "ICLR_github/artifact/gpt3_jailbreak_responses.csv" --model_id "Qwen/Qwen1.5-7B-Chat" --output_filename "qwen1.5_jailbreak_response.csv" --device "cuda"
     ```
 
 4. **Explore the results**:
