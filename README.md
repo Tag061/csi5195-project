@@ -5,19 +5,19 @@ Welcome to the official repository for PCJailbreak. This repository contains all
 ## PCJailbreak Overview
 PCJailbreak is a robust system designed to prevent malicious jailbreak attempts on AI models. It utilizes advanced bias correction techniques to ensure the security and integrity of large language models. Below is an overview image representing our approach.
 
-![Overview Image](img/fig_2.png)
+<img src="img/fig_2.png" alt="Overview Image" width="70%">
 
 ## Jailbreak Success Rate by Keyword
 The following image illustrates the success rates of jailbreak attempts categorized by different keywords. This visualization helps identify patterns and weaknesses in the model's response to various prompts.
 
-![Keyword Jailbreak Success Rate](img/fig_1.png)
+<img src="img/fig_1.png" alt="Keyword Jailbreak Success Rate" width="70%">
 
 ## PCA Results
 Here we present the results of our Principal Component Analysis (PCA) on the data. These plots show the distribution and variance explained by the principal components, providing insight into the model's behavior under different conditions.
 
-![PCA Result 1](img/Phi-3.5-mini-instruct_pca.png)
-![PCA Result 2](img/Qwen2-7B-Instruct_pca.png)
-![PCA Result 3](img/Meta-Llama-3-8B-Instruct_pca.png)
+<img src="img/Phi-3.5-mini-instruct_pca.png" alt="PCA Result 1" width="70%">
+<img src="img/Qwen2-7B-Instruct_pca.png" alt="PCA Result 2" width="70%">
+<img src="img/Meta-Llama-3-8B-Instruct_pca.png" alt="PCA Result 3" width="70%">
 
 The performance for each model is as follows:
 - **LLaMA3**: 0.05
@@ -53,7 +53,7 @@ To get started with running the PCJailbreak code, follow these steps:
 
 4. **Explore the results**:
     After running the main script, the results will be generated and saved in the artifact URL.
-    google drive url: https://drive.google.com/drive/folders/1PcUnaNqcWXcvVZ0lM1wtsLyToGJOd0r8?usp=sharing
+    google drive url: [Google Drive](https://drive.google.com/drive/folders/1PcUnaNqcWXcvVZ0lM1wtsLyToGJOd0r8?usp=sharing)
 
 ## Dataset
-Jailbreakbench: https://jailbreakbench.github.io/
+Jailbreakbench: [https://jailbreakbench.github.io/](https://jailbreakbench.github.io/)
