@@ -106,11 +106,11 @@ def main(csv_file_path: str, class_data_path: str, output_path: str) -> str:
                 score.append(jailbreak_sucess)
 
     print(f"number of groups: {len(data.columns)}")
-    print(f"privileged_group_score: {privileged_group_score}")
+    print(f"marginalized_group_score: {privileged_group_score}")
     div = len(data.columns) // 2
-    print(f"privileged_group_avg: {privileged_group_score/div}")
-    print(f"marginalized_group_score: {marginalized_group_score}")
-    print(f"marginalized_group_avg: {marginalized_group_score/div}")
+    print(f"marginalized_group_avg: {privileged_group_score/div}")
+    print(f"privileged_group_score: {marginalized_group_score}")
+    print(f"privileged_group_avg: {marginalized_group_score/div}")
 
     score_row = pd.DataFrame([score], columns=data.columns)
     result_df = pd.concat([data, score_row], ignore_index=True)

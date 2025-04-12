@@ -4,219 +4,237 @@ This project replicates and extends the empirical studies found in the paper tit
 # AdvBench
 <details>
 <summary>meta-llama/Llama-2-7b-chat-hf</summary>
-number of groups: 20<br>
-privileged_group_score: 21<br>
-privileged_group_avg: 2.1<br>
-marginalized_group_score: 20<br>
-marginalized_group_avg: 2.0<br>
-People with disabilities <-> People without disabilities: 3<br>
-People with disabilities: 5<br>
-People without disabilities: 2<br>
+<code>
+number of groups: 20
+marginalized_group_score: 21
+marginalized_group_avg: 2.1
+privileged_group_score: 20
+privileged_group_avg: 2.0
+People with disabilities <-> People without disabilities: 3
+People with disabilities: 5
+People without disabilities: 2
 -----------------
-     
+</code>
 </details>
+
 <details>
 <summary>meta-llama/Llama-2-13b-chat-hf</summary>
-number of groups: 20<br>
-privileged_group_score: 26<br>
-privileged_group_avg: 2.6<br>
-marginalized_group_score: 26<br>
-marginalized_group_avg: 2.6<br>
-People with mental health issues <-> People without mental health issues: 2<br>
-People with mental health issues: 4<br>
-People without mental health issues: 2<br>
+<code>
+number of groups: 20
+marginalized_group_score: 26
+marginalized_group_avg: 2.6
+privileged_group_score: 26
+privileged_group_avg: 2.6
+People with mental health issues <-> People without mental health issues: 2
+People with mental health issues: 4
+People without mental health issues: 2
 -----------------
-          
+</code>
 </details>
+
 <details>
 <summary>meta-llama/Meta-Llama-3-8B-Instruct</summary>
-number of groups: 20<br>
-privileged_group_score: 29<br>
-privileged_group_avg: 2.9<br>
-marginalized_group_score: 32<br>
-marginalized_group_avg: 3.2<br>
-People of color <-> White individuals: 3<br>
-People of color: 3<br>
-White individuals: 0<br>
------------------<br>
-Women <-> Men: 3<br>
-Women: 5<br>
-Men: 2<br>
------------------<br>
-          
+<code>
+number of groups: 20
+marginalized_group_score: 29
+marginalized_group_avg: 2.9
+privileged_group_score: 32
+privileged_group_avg: 3.2
+People of color <-> White individuals: 3
+People of color: 3
+White individuals: 0
+-----------------
+Women <-> Men: 3
+Women: 5
+Men: 2
+-----------------
+</code>
 </details>
+
 <details>
 <summary>Qwen/Qwen1.5-7B-Chat</summary>
-number of groups: 20<br>
-privileged_group_score: 329<br>
-privileged_group_avg: 32.9<br>
-marginalized_group_score: 282<br>
-marginalized_group_avg: 28.2<br>
-LGBTQ+ community <-> Heterosexual individuals: 8<br>
-LGBTQ+ community: 19<br>
-Heterosexual individuals: 11<br>
------------------<br>
-People of color <-> White individuals: 11<br>
-People of color: 26<br>
-White individuals: 15<br>
------------------<br>
-Women <-> Men: 5<br>
-Women: 46<br>
-Men: 41<br>
------------------<br>
-               
+<code>
+number of groups: 20
+marginalized_group_score: 319
+marginalized_group_avg: 31.9
+privileged_group_score: 272
+privileged_group_avg: 27.2
+LGBTQ+ community <-> Heterosexual individuals: 8
+LGBTQ+ community: 18
+Heterosexual individuals: 10
+-----------------
+People of color <-> White individuals: 11
+People of color: 25
+White individuals: 14
+-----------------
+Women <-> Men: 5
+Women: 45
+Men: 40
+-----------------
+</code>
 </details>
 
 <details>
 <summary>Qwen/Qwen2-7B-Instruct</summary>
-number of groups: 20<br>
-privileged_group_score: 3014<br>
-privileged_group_avg: 301.4<br>
-marginalized_group_score: 2558<br>
-marginalized_group_avg: 255.8<br>
-Women <-> Men: 6<br>
-Women: 309<br>
-Men: 303<br>
------------------<br>
-Immigrants <-> Native-born citizens: 25<br>
-Immigrants: 310<br>
-Native-born citizens: 285<br>
------------------<br>
-       
+<code>
+number of groups: 20
+marginalized_group_score: 3004
+marginalized_group_avg: 300.4
+privileged_group_score: 2548
+privileged_group_avg: 254.8
+Women <-> Men: 6
+Women: 308
+Men: 302
+-----------------
+Immigrants <-> Native-born citizens: 25
+Immigrants: 309
+Native-born citizens: 284
+-----------------
+</code>
 </details>
 
 <details>
 <summary>microsoft/Phi-3-mini-4k-instruct</summary>
-number of groups: 20<br>
-privileged_group_score: 104<br>
-privileged_group_avg: 10.4<br>
-marginalized_group_score: 106<br>
-marginalized_group_avg: 10.6<br>
-People of color <-> White individuals: 2<br>
-People of color: 10<br>
-White individuals: 8<br>
------------------<br>
-Immigrants <-> Native-born citizens: 4<br>
-Immigrants: 14<br>
-Native-born citizens: 10<br>
------------------<br>
-People living in poverty <-> People living in affluence: 8<br>
-People living in poverty: 17<br>
-People living in affluence: 9<br>
------------------<br>
-      
+<code>
+number of groups: 20
+marginalized_group_score: 104
+marginalized_group_avg: 10.4
+privileged_group_score: 106
+privileged_group_avg: 10.6
+People of color <-> White individuals: 2
+People of color: 10
+White individuals: 8
+-----------------
+Immigrants <-> Native-born citizens: 4
+Immigrants: 14
+Native-born citizens: 10
+-----------------
+People living in poverty <-> People living in affluence: 8
+People living in poverty: 17
+People living in affluence: 9
+-----------------
+</code>
 </details>
 
 # JailbreakBench
 <details>
 <summary>meta-llama/Llama-2-7b-chat-hf</summary>
-number of groups: 20<br>
-privileged_group_score: 25<br>
-privileged_group_avg: 2.5<br>
-marginalized_group_score: 29<br>
-marginalized_group_avg: 2.9<br>
-LGBTQ+ community <-> Heterosexual individuals: 2<br>
-LGBTQ+ community: 3<br>
-Heterosexual individuals: 1<br>
------------------<br>
-People with disabilities <-> People without disabilities: 4<br>
-People with disabilities: 5<br>
-People without disabilities: 1<br>
------------------<br>
-Low-income families <-> High-income families: 2<br>
-Low-income families: 5<br>
-High-income families: 3<br>
------------------<br>
-                     
+<code>
+number of groups: 20
+marginalized_group_score: 15
+marginalized_group_avg: 1.5
+privileged_group_score: 19
+privileged_group_avg: 1.9
+LGBTQ+ community <-> Heterosexual individuals: 2
+LGBTQ+ community: 2
+Heterosexual individuals: 0
+-----------------
+People with disabilities <-> People without disabilities: 4
+People with disabilities: 4
+People without disabilities: 0
+-----------------
+Low-income families <-> High-income families: 2
+Low-income families: 4
+High-income families: 2
+-----------------
+</code>
 </details>
+
 <details>
 <summary>meta-llama/Llama-2-13b-chat-hf</summary>
-number of groups: 20<br>
-privileged_group_score: 22<br>
-privileged_group_avg: 2.2<br>
-marginalized_group_score: 26<br>
-marginalized_group_avg: 2.6<br>
-                     
+<code>
+number of groups: 20
+marginalized_group_score: 12
+marginalized_group_avg: 1.2
+privileged_group_score: 16
+privileged_group_avg: 1.6
+</code>
 </details>
+
 <details>
 <summary>meta-llama/Meta-Llama-3-8B-Instruct</summary>
-number of groups: 20<br>
-privileged_group_score: 35<br>
-privileged_group_avg: 3.5<br>
-marginalized_group_score: 43<br>
-marginalized_group_avg: 4.3<br>
-Women <-> Men: 2<br>
-Women: 6<br>
-Men: 4<br>
------------------<br>
-People with disabilities <-> People without disabilities: 2<br>
-People with disabilities: 6<br>
-People without disabilities: 4<br>
------------------<br>
-transgender individuals <-> Cisgender individuals: 2<br>
-transgender individuals: 6<br>
-Cisgender individuals: 4<br>
------------------<br>
-Indigenous peoples <-> Non-Indigenous peoples: 2<br>
-Indigenous peoples: 3<br>
-Non-Indigenous peoples: 1<br>
------------------<br>
-People with mental health issues <-> People without mental health issues: 2<br>
-People with mental health issues: 5<br>
-People without mental health issues: 3<br>
------------------<br>
-                      
+<code>
+number of groups: 20
+marginalized_group_score: 25
+marginalized_group_avg: 2.5
+privileged_group_score: 33
+privileged_group_avg: 3.3
+Women <-> Men: 2
+Women: 5
+Men: 3
+-----------------
+People with disabilities <-> People without disabilities: 2
+People with disabilities: 5
+People without disabilities: 3
+-----------------
+transgender individuals <-> Cisgender individuals: 2
+transgender individuals: 5
+Cisgender individuals: 3
+-----------------
+Indigenous peoples <-> Non-Indigenous peoples: 2
+Indigenous peoples: 2
+Non-Indigenous peoples: 0
+-----------------
+People with mental health issues <-> People without mental health issues: 2
+People with mental health issues: 4
+People without mental health issues: 2
+-----------------
+</code>
 </details>
+
 <details>
 <summary>Qwen/Qwen1.5-7B-Chat</summary>
-number of groups: 20<br>
-privileged_group_score: 142<br>
-privileged_group_avg: 14.2<br>
-marginalized_group_score: 116<br>
-marginalized_group_avg: 11.6<br>
-Low-income families <-> High-income families: 2<br>
-Low-income families: 17<br>
-High-income families: 15<br>
------------------<br>
-                   
+<code>
+number of groups: 20
+marginalized_group_score: 132
+marginalized_group_avg: 13.2
+privileged_group_score: 106
+privileged_group_avg: 10.6
+Low-income families <-> High-income families: 2
+Low-income families: 16
+High-income families: 14
+-----------------
+</code>
 </details>
 
 <details>
 <summary>Qwen/Qwen2-7B-Instruct</summary>
-number of groups: 20<br>
-privileged_group_score: 580<br>
-privileged_group_avg: 58.0<br>
-marginalized_group_score: 532<br>
-marginalized_group_avg: 53.2<br>
-People of color <-> White individuals: 7<br>
-People of color: 51<br>
-White individuals: 44<br>
------------------<br>
-Immigrants <-> Native-born citizens: 7<br>
-Immigrants: 64<br>
-Native-born citizens: 57<br>
------------------<br>
-                     
+<code>
+number of groups: 20
+marginalized_group_score: 570
+marginalized_group_avg: 57.0
+privileged_group_score: 522
+privileged_group_avg: 52.2
+People of color <-> White individuals: 7
+People of color: 50
+White individuals: 43
+-----------------
+Immigrants <-> Native-born citizens: 7
+Immigrants: 63
+Native-born citizens: 56
+-----------------
+</code>
 </details>
 
 <details>
 <summary>microsoft/Phi-3-mini-4k-instruct</summary>
-number of groups: 20<br>
-privileged_group_score: 75<br>
-privileged_group_avg: 7.5<br>
-marginalized_group_score: 83<br>
-marginalized_group_avg: 8.3<br>
-People of color <-> White individuals: 3<br>
-People of color: 8<br>
-White individuals: 5<br>
------------------<br>
-Women <-> Men: 4<br>
-Women: 10<br>
-Men: 6<br>
------------------<br>
-People living in poverty <-> People living in affluence: 2<br>
-People living in poverty: 10<br>
-People living in affluence: 8<br>
------------------<br>
-          
+<code>
+number of groups: 20
+marginalized_group_score: 65
+marginalized_group_avg: 6.5
+privileged_group_score: 73
+privileged_group_avg: 7.3
+People of color <-> White individuals: 3
+People of color: 7
+White individuals: 4
+-----------------
+Women <-> Men: 4
+Women: 9
+Men: 5
+-----------------
+People living in poverty <-> People living in affluence: 2
+People living in poverty: 9
+People living in affluence: 7
+-----------------
+</code>
 </details>
