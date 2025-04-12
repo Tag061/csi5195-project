@@ -4,6 +4,7 @@ This project replicates and extends the empirical studies found in the paper tit
 # AdvBench
 <details>
 <summary>meta-llama/Llama-2-7b-chat-hf</summary>
+<pre>
 <code>
 number of groups: 20
 marginalized_group_score: 21
@@ -15,10 +16,12 @@ People with disabilities: 5
 People without disabilities: 2
 -----------------
 </code>
+</pre>
 </details>
 
 <details>
 <summary>meta-llama/Llama-2-13b-chat-hf</summary>
+<pre>
 <code>
 number of groups: 20
 marginalized_group_score: 26
@@ -30,10 +33,12 @@ People with mental health issues: 4
 People without mental health issues: 2
 -----------------
 </code>
+</pre>
 </details>
 
 <details>
 <summary>meta-llama/Meta-Llama-3-8B-Instruct</summary>
+<pre>
 <code>
 number of groups: 20
 marginalized_group_score: 29
@@ -49,10 +54,12 @@ Women: 5
 Men: 2
 -----------------
 </code>
+</pre>
 </details>
 
 <details>
 <summary>Qwen/Qwen1.5-7B-Chat</summary>
+<pre>
 <code>
 number of groups: 20
 marginalized_group_score: 319
@@ -72,10 +79,12 @@ Women: 45
 Men: 40
 -----------------
 </code>
+</pre>
 </details>
 
 <details>
 <summary>Qwen/Qwen2-7B-Instruct</summary>
+<pre>
 <code>
 number of groups: 20
 marginalized_group_score: 3004
@@ -91,10 +100,12 @@ Immigrants: 309
 Native-born citizens: 284
 -----------------
 </code>
+</pre>
 </details>
 
 <details>
 <summary>microsoft/Phi-3-mini-4k-instruct</summary>
+<pre>
 <code>
 number of groups: 20
 marginalized_group_score: 104
@@ -114,11 +125,13 @@ People living in poverty: 17
 People living in affluence: 9
 -----------------
 </code>
+</pre>
 </details>
 
 # JailbreakBench
 <details>
 <summary>meta-llama/Llama-2-7b-chat-hf</summary>
+<pre>
 <code>
 number of groups: 20
 marginalized_group_score: 15
@@ -138,10 +151,12 @@ Low-income families: 4
 High-income families: 2
 -----------------
 </code>
+</pre>
 </details>
 
 <details>
 <summary>meta-llama/Llama-2-13b-chat-hf</summary>
+<pre>
 <code>
 number of groups: 20
 marginalized_group_score: 12
@@ -149,10 +164,12 @@ marginalized_group_avg: 1.2
 privileged_group_score: 16
 privileged_group_avg: 1.6
 </code>
+</pre>
 </details>
 
 <details>
 <summary>meta-llama/Meta-Llama-3-8B-Instruct</summary>
+<pre>
 <code>
 number of groups: 20
 marginalized_group_score: 25
@@ -180,10 +197,12 @@ People with mental health issues: 4
 People without mental health issues: 2
 -----------------
 </code>
+</pre>
 </details>
 
 <details>
 <summary>Qwen/Qwen1.5-7B-Chat</summary>
+<pre>
 <code>
 number of groups: 20
 marginalized_group_score: 132
@@ -195,10 +214,12 @@ Low-income families: 16
 High-income families: 14
 -----------------
 </code>
+</pre>
 </details>
 
 <details>
 <summary>Qwen/Qwen2-7B-Instruct</summary>
+<pre>
 <code>
 number of groups: 20
 marginalized_group_score: 570
@@ -214,10 +235,12 @@ Immigrants: 63
 Native-born citizens: 56
 -----------------
 </code>
+</pre>
 </details>
 
 <details>
 <summary>microsoft/Phi-3-mini-4k-instruct</summary>
+<pre>
 <code>
 number of groups: 20
 marginalized_group_score: 65
@@ -237,4 +260,5 @@ People living in poverty: 9
 People living in affluence: 7
 -----------------
 </code>
+</pre>
 </details>
