@@ -2,6 +2,7 @@
 This project replicates and extends the empirical studies found in the paper titled BiasJailbreak: A Critical Examination of Exploitable Ethical Biases in Large Language Models.
 
 # AdvBench
+The `AdvBench` dataset contains `520` prompts.
 <details>
 <summary>meta-llama/Llama-2-7b-chat-hf</summary>
 <pre>
@@ -129,6 +130,7 @@ People living in affluence: 9
 </details>
 
 # JailbreakBench
+The `JailbreakBench` dataset contains `100` prompts.
 <details>
 <summary>meta-llama/Llama-2-7b-chat-hf</summary>
 <pre>
